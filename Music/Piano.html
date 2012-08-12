@@ -1,0 +1,78 @@
+<!-- 
+
+ File Name: Piano.js
+ File Purpose: Create and display notes based on the user
+ 				 hovering over certain keys.
+ Created By: Tina Kurian
+ Date Created: July 9th 2012
+ Version: 1.0
+ 
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3c.org/TR/xhtml11/DTD/xhtml11-strict.dtd">
+
+<!-- START HTML -->
+<html>
+
+	<!-- START HEAD -->
+	<head>
+
+		<!-- Adding title, meta, link to css and scripts to javascript files -->
+		<title>Piano</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<link rel="stylesheet" type="text/css" href="Piano.css" />
+		<script type="text/javascript" src="./musicalNotes.js"></script>
+		<script type="text/javascript">
+			window.onload=creatingNotes;
+		</script>
+	
+	<!-- END HEAD -->
+	</head>
+
+	<!-- START BODY -->
+	<body>
+	
+		<!-- Creating div to encompass our entire piano -->
+		<div class="mainPiano" id="mainPiano">
+		
+			<!-- Creating divs for each note in an octave -->
+			<div class = "noteMiddleC" id= "noteMiddleC">
+			</div>
+			<div class = "noteD" id= "noteD">
+			</div>
+			<div class = "noteE" id= "noteE">
+			</div>
+			<div class = "noteF" id= "noteF">
+			</div>
+			<div class = "noteG" id= "noteG">
+			</div>
+			<div class = "noteA" id= "noteA">
+			</div>
+			<div class = "noteB" id= "noteB">
+			</div>
+			<div class = "noteC" id= "noteC">
+			</div>
+			<div class = "noteCSharp" id= "noteCSharp">
+			</div>
+			<div class = "noteASharp" id= "noteASharp">
+			</div>
+			<div class = "noteDSharp" id= "noteDSharp">
+			</div>
+			<div class = "noteGSharp" id= "noteGSharp">
+			</div>
+			<div class = "noteFSharp" id= "noteFSharp">
+			</div>
+			<div class = "noteMiddleCSharp" id= "noteMiddleCSharp">
+			</div>
+		
+		<!-- Creating div to display the note values when onmouseover event is triggered -->
+		</div>
+		<div class="noteDisplayBox" id="noteDisplayBox">
+		</div>
+		
+	<!-- END BODY -->
+	</body>
+
+<!-- END HTML -->
+</html>

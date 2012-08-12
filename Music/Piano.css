@@ -1,0 +1,209 @@
+/**
+ * File Name: Piano.css
+ * File Purpose: Formatting html divs to create
+ *				 something that looks like a piano.
+ * Created By: Tina Kurian
+ * Date Created: July 9th 2012
+ * Version: 1.0
+ *
+ */
+
+ 
+ /* 
+  * mainPiano div - we will make it large enough to hold all the keys
+  * on the keyboard. We will outline it with a solid black boarder
+  */
+.mainPiano
+{
+	height: 153px;
+	width: 417px;
+	border-style:solid white; 
+	outline: 5px solid black; 
+	border-width: 5px;
+	float: left;
+	padding-left: 1px; 
+}
+
+ /* 
+  * noteDisplayBox div - we will make it the same size as the
+  * entire keyboard. It will be used to display the name of the
+  * notes as the user hovers over the keys 
+  */
+.noteDisplayBox
+{ 
+	font-family: Georgian;
+	font-style: italic;  
+	font-size:	 16px;
+	color: navy; 
+	margin-top: 10px; 
+	height: 200px;
+	width: 415px;
+	border:	solid black 5px;
+	float: left; 
+	overflow: auto;
+	position: fixed; 
+	top:170px;
+    
+}
+
+/* C div - Key*/
+.noteMiddleC
+{
+	height: 150px;
+	width: 50px;
+	border-style:solid; 
+	border-width: 1px;
+	float:left;
+	
+}
+
+/* C# div - Key*/
+.noteMiddleCSharp
+{
+	height: 100px;
+	width: 25px;
+	border-style:solid;
+	border-width: 1px;
+	background-color: black;
+	float:left;
+	margin-left: 40px;
+	margin-top: -151px; 
+}
+
+ /* D div - Key*/
+.noteD
+{
+	height: 150px;
+	width: 50px;
+	border-style:solid; 
+	border-width: 1px;
+	float:left;
+	
+}
+
+/* D# div - Key*/
+.noteDSharp
+{
+	height: 100px;
+	width: 25px;
+	border-style:solid;
+	border-width: 1px;
+	background-color: black;
+	float:left;
+	margin-left: 40px; 
+	margin-left: 90px;
+	margin-top: -151px; 
+}
+
+ /* E div - Key*/
+.noteE
+{
+	height: 150px;
+	width: 50px;
+	border-style:solid;
+	border-width: 1px;
+	float:left;
+}
+
+ /* F div - Key*/
+.noteF
+{
+	height: 150px;
+	width: 50px;
+	border-style:solid;
+	border-width: 1px;
+	float:left;
+}
+
+ /* F# div - Key*/
+.noteFSharp
+{
+	height: 100px;
+	width: 25px;
+	border-style:solid;
+	border-width: 1px;
+	background-color: black;
+	float:left;
+	margin-left: 195px;
+	margin-top: -151px; 
+}
+
+ /* G div - Key*/
+.noteG
+{
+	height: 150px;
+	width: 50px;
+	border-style:solid;
+	border-width: 1px;
+	float:left;
+}
+
+ /* G# div - Key*/
+.noteGSharp
+{
+	height: 100px;
+	width: 25px;
+	border-style:solid;
+	border-width: 1px;
+	background-color: black;
+	float:left;
+	margin-left: 250px;
+	margin-top: -151px; 
+}
+
+ /* A div - Key*/
+.noteA
+{
+	height: 150px;
+	width: 50px;
+	border-style:solid;
+	border-width: 1px;
+	float:left;
+}
+
+ /* A# div - Key*/
+.noteASharp
+{
+	height: 100px;
+	width: 25px;
+	border-style:solid;
+	border-width: 1px;
+	background-color: black;
+	float:left;
+	margin-left: 300px;
+	margin-top: -151px; 
+	
+}
+
+ /* B div - Key*/
+.noteB
+{
+	height: 150px;
+	width: 50px;
+	border-style:solid;
+	border-width: 1px;
+	float:left;
+}
+
+ /* C div - Key*/
+.noteC
+{
+	height: 150px;
+	width: 50px;
+	border-style:solid;
+	border-width: 1px;
+	float:left;
+}
+
+ /* C# div - Key*/
+.noteCSharp
+{
+	height: 101px;
+	width: 25px;
+	border-style:solid;
+	border-width: 1px;
+	background-color: black;
+	float:left;
+	margin-left: 390px;
+	margin-top: -151px; 
+}
